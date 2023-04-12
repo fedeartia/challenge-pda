@@ -1,0 +1,62 @@
+// estilos para las progress bar de la card de REPNA
+
+.titulo-repna {
+    font-size: 17px;
+    font-weight: 400;
+    color: $repna-orange;
+
+    @include media-breakpoint-up(md) {
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+.titulo-extroversion,
+.titulo-paciencia,
+.titulo-norma,
+.titulo-autocontrol {
+    font-size: 17px;
+    font-weight: 400;
+    color: $gray-400;
+
+    @include media-breakpoint-up(md) {
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+.progress {
+    border-radius: 5rem;
+
+    .progress-bar.riesgo {
+        border-radius: 5rem;
+        background-color: $repna-orange;
+    }
+
+    .progress-bar.extroversion,
+    .progress-bar.paciencia,
+    .progress-bar.norma,
+    .progress-bar.autocontrol {
+        border-radius: 5rem;
+        background-color: $gray-400;
+    }
+}
+
+.point {
+    width: 15px;
+    height: 15px;
+    margin: 1px auto;
+    background-color: $white;
+}
+
+.point-active {
+    width: 15px;
+    height: 15px;
+    margin: 1px auto;
+    background-color: $primary-light;
+    border: 2px solid $white;
+}
+
+.repna-point-desc-active {
+    color: $primary-light;
+}

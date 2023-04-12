@@ -1,0 +1,71 @@
+// chart compatibilidad
+
+.chart-container {
+    background-color: $white;
+    width: 240px;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+    aspect-ratio: 1;
+
+    @include media-breakpoint-up(md) {
+        width: 470px;
+    }
+}
+
+;
+
+.pie-chart {
+    width: 210px;
+    height: 210px;
+    background-color: #f2f2f2;
+    background: conic-gradient(#40C4FF 0deg, #0075F6 259deg, #F2F3F3 259deg);
+    position: relative;
+    font-size: 2em;
+    border-radius: 50%;
+
+    @include media-breakpoint-up(md) {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.pie-chart--donut:after {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    content: "";
+
+    @include media-breakpoint-up(md) {
+        width: 360px;
+        height: 360px;
+    }
+}
+
+.pie-chart__value {
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+    @include media-breakpoint-up(md) {
+        font-size: 64px;
+    }
+}
+
+.pie-chart__text {
+    font-size: 17px;
+    line-height: 1.4;
+    display: inline-block;
+
+    @include media-breakpoint-up(md) {
+        font-size: 32px;
+    }
+}

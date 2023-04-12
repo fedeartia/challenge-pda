@@ -1,0 +1,70 @@
+// estilos para el gráfico de balance de edad y género
+
+.first-range {
+    .pill-genre-other {
+        height: 30%;
+    }
+
+    .pill-genre-female {
+        height: 50%;
+    }
+
+    .pill-genre-male {
+        height: 20%;
+    }
+}
+
+.second-range {
+    .pill-genre-other {
+        height: 15%;
+    }
+
+    .pill-genre-female {
+        height: 25%;
+    }
+
+    .pill-genre-male {
+        height: 60%;
+    }
+}
+
+.third-range {
+    .pill-genre-other {
+        height: 15%;
+    }
+
+    .pill-genre-female {
+        height: 20%;
+    }
+
+    .pill-genre-male {
+        height: 65%;
+    }
+}
+
+.fourth-range {
+    .pill-genre-female {
+        height: 50%;
+    }
+
+    .pill-genre-male {
+        height: 50%;
+    }
+}
+
+.pill-genre {
+    width: 17px;
+    border-radius: 25px
+}
+
+.pill-genre-other {
+    background-color: $genre-blue;
+}
+
+.pill-genre-female {
+    background-color: $genre-pink;
+}
+
+.pill-genre-male {
+    background-color: $genre-yellow;
+}

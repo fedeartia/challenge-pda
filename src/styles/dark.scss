@@ -1,0 +1,59 @@
+$body-bg: #1c1c1c;
+$body-color: #f4f4f4 !important;
+@import 'light';
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #d4d4d4;
+}
+
+.user-consistency p {
+    color: $gray-100;
+}
+
+.pda-paragraph {
+    color: $gray-100;
+}
+
+.pda-card .pda-paragraph, .pda-card h2 {
+    color: $white;
+}
+.chart-container {
+    background-color: #38434e;
+}
+.pda-card {
+    background-color: #6a6a6a;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+.role-badge {
+    color: $black !important;
+}
+.consistency-pill,
+.consistency-pill-filled {
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .3);
+}
+
+.pie-chart--donut:after {
+    background:#8b8b8b;
+}
+.pie-chart__value {
+    color: #1c1c1c;
+}
+
+.btn-outline-primary {
+    color: $primary-light;
+    border-color: $primary-light;
+    &:hover {
+        color: $primary-light;
+        border-color: $primary-light;
+        background-color: transparent;
+    }
+}
+
+.view-more {
+    color: $primary-light;
+}
