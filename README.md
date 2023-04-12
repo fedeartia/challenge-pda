@@ -1,6 +1,6 @@
 # PDA Challenge
 
-Proyecto Angular + SASS + Bootstrap 5
+Proyecto Angular + SASS + Bootstrap 5 + un toque personal (dark theme)
 
 Prototipo Figma: https://www.figma.com/file/W2kSnLFtaYKFAlhpnjCSHO/Challenge-PDA-(Community)?node-id=103-6902&t=wtYqD8NbeeSs76rU-0
 
