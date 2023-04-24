@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-bootstrap-boilerplate": {
+    "pda-challenge": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-bootstrap-boilerplate",
+            "outputPath": "dist/pda-challenge",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -84,10 +84,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-bootstrap-boilerplate:build:production"
+              "browserTarget": "pda-challenge:build:production"
             },
             "development": {
-              "browserTarget": "angular-bootstrap-boilerplate:build:development"
+              "browserTarget": "pda-challenge:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -95,7 +95,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-bootstrap-boilerplate:build"
+            "browserTarget": "pda-challenge:build"
           }
         },
         "test": {
@@ -121,5 +121,5 @@
       }
     }
   },
-  "defaultProject": "angular-bootstrap-boilerplate"
+  "defaultProject": "pda-challenge"
 }

@@ -1,9 +1,9 @@
 {
-  "name": "angular-bootstrap-boilerplate",
+  "name": "pda-challenge",
   "version": "1.0.0",
   "description": "This is a boilerplate for Angular 12 with Bootstrap 5.",
   "keywords": ["boilerplate", "angular", "bootstrap"],
-  "homepage": "https://github.com/laarrrx/angular-bootstrap-boilerplate",
+  "homepage": "https://github.com/laarrrx/pda-challenge",
   "scripts": {
     "ng": "ng",
     "start": "node --max_old_space_size=6144 ./node_modules/@angular/cli/bin/ng serve",
